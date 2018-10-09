@@ -11,7 +11,7 @@ class MyWorkContainer extends Component {
     render() {
         return (
             <LandingBackGround>
-                <h1>My Work</h1>
+                MyWorkContainer
             </LandingBackGround>
         );
     }

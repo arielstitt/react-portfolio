@@ -15,14 +15,18 @@ class LandingPageContainer extends Component {
         return (
             <div>
                 <LandingBackGround>
-                    <h1>This is the landing background</h1>
+                    LandingPageContainer
+                    <video width="320" height="240" controls>
+                        <source src="../media/2friends.mp4" type="video/mp4"/>>
+                        Your browser does not support the video tag.
+                    </video>
                 </LandingBackGround>
-                <MyWorkContainer/>
-                <AboutContainer/>
-                <ContactContainer/>
+                        <MyWorkContainer />
+                        <AboutContainer />
+                        <ContactContainer />
             </div>
-        );
-    }
-}
-
+                    );
+                }
+            }
+            
 export default LandingPageContainer;

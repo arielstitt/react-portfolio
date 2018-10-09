@@ -11,7 +11,7 @@ class ContactContainer extends Component {
     render() {
         return (
             <LandingBackGround>
-                <h1>Contact Container</h1>
+                ContactContainer
             </LandingBackGround>
         );
     }
