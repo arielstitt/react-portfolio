@@ -4,6 +4,7 @@ import MyWorkContainer from '../MyWork/MyWorkContainer'
 import AboutContainer from '../AboutMe/AboutContainer'
 import ContactContainer from '../Contact/ContactContainer'
 import NavBar from './NavBar'
+import friends from '../../media/friends.mp4'
 
 const LandingBackGround = styled.div`
     
@@ -18,11 +19,8 @@ class LandingPageContainer extends Component {
                 <NavBar />
                 <LandingBackGround>
 
-                    {/* <video autoPlay loop>
-                        <source src="https://i.imgur.com/hJQY4rh.mp4" type="video/mp4" />
-                    </video> */}
-                    <video autoplay muted loop id="myVideo">
-                        <source src="https://i.imgur.com/hJQY4rh.mp4" type="video/mp4" />>
+                    <video autoPlay muted loop >
+                        <source src={friends} type="video/mp4" />
                     </video>
 
                 </LandingBackGround>
