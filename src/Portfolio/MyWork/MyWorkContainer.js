@@ -15,7 +15,7 @@ const ProjectContainer = styled.div`
     align-items: center;
     justify-content: space-around;
 `
-const SingleProject = styled.div`
+const SingleProject = styled.iframe`
     background-color: orange;
     height: 40vh;
     width: 45vw;
@@ -26,13 +26,28 @@ class MyWorkContainer extends Component {
         return (
             <LandingBackGround>
                 <ProjectContainer>
-                    <SingleProject><a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">Project 1</a> </SingleProject>
-                    <SingleProject><a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">Project 2</a> </SingleProject>
+                    {/* <SingleProject><a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">Project 1: Jeopardy</a> </SingleProject> */}
+                     {/* <SingleProject><a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">Project 2: Mother Of Horus</a> 
+                    </SingleProject> */}
+                    <SingleProject src="https://agitated-volhard-7ae580.netlify.com/">
+                        <p>Your browser does not support iframes.</p>
+                    </SingleProject>  
+                    <SingleProject src="https://enigmatic-headland-90376.herokuapp.com/">
+                        <p>Your browser does not support iframes</p>
+                    </SingleProject>
                 </ProjectContainer>
 
                 <ProjectContainer>
-                    <SingleProject><a href="https://wdi14-project3.herokuapp.com/" target="_blank">Project 3</a> </SingleProject>
-                    <SingleProject>Project 4</SingleProject>
+                    {/* <SingleProject><a href="https://wdi14-project3.herokuapp.com/" target="_blank">Project 3: Goal'd</a> </SingleProject> */}
+                    {/* <SingleProject><a href="https://protected-meadow-78592.herokuapp.com/" target="_blank">Project 4: Daddy Issues </a></SingleProject> */}
+                    
+                    <SingleProject src="https://wdi14-project3.herokuapp.com/">
+                        <p>Your browser does not support iframes</p>
+                    </SingleProject>
+                    <SingleProject src="https://protected-meadow-78592.herokuapp.com/">
+                        <p>Your browser does not support iframes</p>
+                    </SingleProject>
+                    
                 </ProjectContainer>
             </LandingBackGround >
         );
