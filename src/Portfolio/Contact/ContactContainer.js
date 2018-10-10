@@ -12,6 +12,7 @@ class ContactContainer extends Component {
         return (
             <LandingBackGround>
                 ContactContainer
+                {/* <a href="https://imgur.com/yExVR7x" target="_blank"><img src="https://i.imgur.com/yExVR7x.png" title="source: imgur.com" /></a> */}
             </LandingBackGround>
         );
     }
