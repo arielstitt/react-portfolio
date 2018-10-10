@@ -11,6 +11,11 @@ const LandingBackGround = styled.div`
     height: 100vh;
     width: 100vw;
 `
+const PlayVideo = styled.video`
+    height: 100vh;
+    width: 100vw;
+`
+
 
 class LandingPageContainer extends Component {
     render() {
@@ -19,9 +24,9 @@ class LandingPageContainer extends Component {
                 <NavBar />
                 <LandingBackGround>
 
-                    <video autoPlay muted loop >
+                    <PlayVideo autoPlay muted loop >
                         <source src={friends} type="video/mp4" />
-                    </video>
+                    </PlayVideo>
 
                 </LandingBackGround>
                 <MyWorkContainer />
