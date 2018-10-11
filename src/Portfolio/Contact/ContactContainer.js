@@ -28,24 +28,26 @@ const SectionHeader = styled.div`
 class ContactContainer extends Component {
     render() {
         return (
-            <ContactsContainer id='contact'>
-                <SectionHeader> Contact Me</SectionHeader>
+            <div>
+                <SectionHeader id='contact'> Contact Me</SectionHeader>
+                <ContactsContainer >
 
-                <ContactPod> <a href="https://github.com/arielstitt" target="_blank">
-                    GITHUB
+                    <ContactPod> <a href="https://github.com/arielstitt" target="_blank">
+                        GITHUB
                 </a>
-                </ContactPod>
+                    </ContactPod>
 
 
-                <ContactPod><a href="https://www.linkedin.com/in/arielstitt/" target="_blank">LINKEDIN</a></ContactPod>
+                    <ContactPod><a href="https://www.linkedin.com/in/arielstitt/" target="_blank">LINKEDIN</a></ContactPod>
 
 
-                <ContactPod><a href="https://www.arielstitt@gmail.com" target="_blank">GMAIL </a></ContactPod>
+                    <ContactPod><a href="https://www.arielstitt@gmail.com" target="_blank">GMAIL </a></ContactPod>
 
 
-                {/* <a href="https://imgur.com/yExVR7x" target="_blank"><img src="https://i.imgur.com/yExVR7x.png" title="source: imgur.com" /></a> */}
+                    {/* <a href="https://imgur.com/yExVR7x" target="_blank"><img src="https://i.imgur.com/yExVR7x.png" title="source: imgur.com" /></a> */}
 
-            </ContactsContainer>
+                </ContactsContainer>
+            </div>
         );
     }
 }

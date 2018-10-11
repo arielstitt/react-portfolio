@@ -47,54 +47,54 @@ const SectionHeader = styled.div`
 class AboutContainer extends Component {
     render() {
         return (
-            <LandingBackGround id='aboutMe'>
-                <SectionHeader> About Me </SectionHeader>
-                <SixtySecondPitchContainer>
-                    <PictureContainer>
+            <div>
+                <SectionHeader id='aboutMe'> About Me </SectionHeader>
+                <LandingBackGround >
 
-                    </PictureContainer>
-                    <DescriptionBlock>
-                        <p>   I am a Full Stack Developer that is searching for both frontend and backend opportunities. From the moment I first got my hands on a programming languages over a year ago, I knew that I found the medium to nurture my creativity and logic all in one package: software. </p>
+                    <SixtySecondPitchContainer>
+                        <PictureContainer>
 
-                        <p> Combined with years of experience dealing with customers face to face, managing employees, and delivering clear communication to my team, I want to be the fresh and focused addition to the developer community.</p>
+                        </PictureContainer>
+                        <DescriptionBlock>
+                            <p>   I am a Full Stack Developer that is searching for both frontend and backend opportunities. From the moment I first got my hands on a programming languages over a year ago, I knew that I found the medium to nurture my creativity and logic all in one package: software. </p>
 
-                        <p> Let’s get to work!</p>
-                    </DescriptionBlock>
-                </SixtySecondPitchContainer>
+                            <p> Combined with years of experience dealing with customers face to face, managing employees, and delivering clear communication to my team, I want to be the fresh and focused addition to the developer community.</p>
 
-                <ResumeAside>
-                    <h2>Core Compentcies</h2>
-                    <p>This is a paragraph detailing how and why these Compentcies are important and applicable</p>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                            <p> Let’s get to work!</p>
+                        </DescriptionBlock>
+                    </SixtySecondPitchContainer>
 
-                    <h2>Skills</h2>
-                    <p>This is a paragraph about how and when I use these skills</p>
-                    <h3>Front end</h3>
-                    <ul>
-                        <li>HTML/ CSS</li>
-                        <li>handlebars</li>
-                        <li>React.js</li>
-                        <li>JavaScript</li>
-                        <li>XML</li>
-                    </ul>
+                    <ResumeAside>
+                        <h2>Core Compentcies</h2>
+                        <p>This is a paragraph detailing how and why these Compentcies are important and applicable</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
 
-                    <h3>Back end</h3>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>Ruby on Rails</li>
-                        <li>PostgreSQL</li>
-                    </ul>
+                        <h2>Skills</h2>
+                        <p>This is a paragraph about how and when I use these skills</p>
+                        <h3>Front end</h3>
+                        <ul>
+                            <li>HTML/ CSS</li>
+                            <li>handlebars</li>
+                            <li>React.js</li>
+                            <li>JavaScript</li>
+                            <li>XML</li>
+                        </ul>
 
-
-                </ResumeAside>
-
-            </LandingBackGround>
+                        <h3>Back end</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>Ruby on Rails</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </ResumeAside>
+                </LandingBackGround>
+            </div>
         );
     }
 }
