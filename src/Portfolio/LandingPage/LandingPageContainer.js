@@ -5,15 +5,22 @@ import AboutContainer from '../AboutMe/AboutContainer'
 import ContactContainer from '../Contact/ContactContainer'
 import NavBar from './NavBar'
 import friends from '../../media/friends.mp4'
+import Footer from './Footer'
 
 const LandingBackGround = styled.div`
     
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid #3c3939;
 `
 const PlayVideo = styled.video`
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
+    object-fit: inherit;
 `
 
 
@@ -32,6 +39,7 @@ class LandingPageContainer extends Component {
                 <MyWorkContainer />
                 <AboutContainer />
                 <ContactContainer />
+                <Footer/>
             </div>
         );
     }

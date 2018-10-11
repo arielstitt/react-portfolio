@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 const LandingBackGround = styled.div`
-    background-color: pink;
+    background-color: #573b3a;
     height: 100vh;
     width: 100vw;
     margin: 0 auto;
@@ -12,7 +12,7 @@ const LandingBackGround = styled.div`
     align-items: center;
 `
 const SixtySecondPitchContainer = styled.div`
-    background-color: yellow;
+    background-color: ddc470;
     display: flex;
     flex-direction: column;
     height: 80vh;
@@ -27,21 +27,28 @@ const PictureContainer = styled.div`
     
 `
 const DescriptionBlock = styled.div`
-    background-color: lavender;
+    background-color: #573b3a;
     height: 50%;
     margin: 3%;
 `
 const ResumeAside = styled.div`
-    background-color: gray;
+    background-color: ddc470;
     height: 80vh;
     width: 45vw;
+`
+const SectionHeader = styled.div`
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `
 
 class AboutContainer extends Component {
     render() {
         return (
-            <LandingBackGround>
-
+            <LandingBackGround id='aboutMe'>
+                <SectionHeader> About Me </SectionHeader>
                 <SixtySecondPitchContainer>
                     <PictureContainer>
 
@@ -51,7 +58,7 @@ class AboutContainer extends Component {
 
                         <p> Combined with years of experience dealing with customers face to face, managing employees, and delivering clear communication to my team, I want to be the fresh and focused addition to the developer community.</p>
 
-                        <p> Let’s get to work.</p>
+                        <p> Let’s get to work!</p>
                     </DescriptionBlock>
                 </SixtySecondPitchContainer>
 
@@ -84,7 +91,7 @@ class AboutContainer extends Component {
                         <li>PostgreSQL</li>
                     </ul>
 
-                 
+
                 </ResumeAside>
 
             </LandingBackGround>
