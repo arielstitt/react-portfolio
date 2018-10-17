@@ -49,7 +49,7 @@ class AboutContainer extends Component {
     render() {
         return (
             <div>
-                <SectionHeader id='aboutMe'> About Me </SectionHeader>
+                <SectionHeader id='aboutMe'></SectionHeader>
                 <LandingBackGround >
 
                     <SixtySecondPitchContainer>

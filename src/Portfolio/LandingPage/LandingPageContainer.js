@@ -43,7 +43,7 @@ class LandingPageContainer extends Component {
             <div>
                 <NavBar />
                 {/* THIS NEEDS TO BE SEPARATED INTO A SEPARATE COMPOENET AND IMPORTED IN LADINGINPAGECONTAINER */}
-                <LandingBackGround>
+                <LandingBackGround id='landingPage'>
                     <ContentContainer>
                         <div>
                             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>

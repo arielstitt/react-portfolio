@@ -6,7 +6,6 @@ const NavContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: green;
     height: 12vh;
     width: 100vw;
     border-top: 5px solid green;
@@ -41,10 +40,10 @@ class NavBar extends Component {
     render() {
         return (
 
-            <Scrollspy style={navStyle} items={['myWork', 'aboutMe', 'contact']} currentClassName="is-current">
+            <Scrollspy style={navStyle} items={['landingPage','myWork', 'aboutMe', 'contact']} currentClassName="is-current">
                 <NavContainer>
 
-                    <NameWrapper>Ariel Stitt</NameWrapper>
+                    <NameWrapper> <a href="#landingPage"> Ariel Stitt</a></NameWrapper>
                     <LinkWrapper>
                         <NavButtons><a href="#myWork">My Work</a></NavButtons>
                         <NavButtons><a href="#aboutMe">About Me</a></NavButtons>
