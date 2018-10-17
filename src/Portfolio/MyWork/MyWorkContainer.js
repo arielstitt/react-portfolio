@@ -39,24 +39,35 @@ class MyWorkContainer extends Component {
                 <LandingBackGround id='myWork'>
                     {/* <SectionHeader> My Work </SectionHeader> */}
 
-                    {/* BLOCK 1 */}
+
                     <ProjectContainer>
+                        {/* BLOCK 1 */}
                         <SectionWrapper>
-                            <SingleProject>
-                                <a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">Project 1: Jeopardy</a>
-                            </SingleProject>
-                            <SingleProject>
-                                <a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">Project 2: Mother Of Horus</a>
-                            </SingleProject>
+                            {/* PROJECT 1 */}
+                            <a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">
+                                <SingleProject>
+                                    <div>Project 1: Jeopardy</div>
+                                </SingleProject>
+                            </a>
+                            {/* PROJECT 2 */}
+
+                            <a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">
+                                <SingleProject>  </SingleProject>
+                            </a>
+
                         </SectionWrapper>
+                        {/* BLOCK 2 */}
                         <SectionWrapper>
+                            {/* PROJECT 3 */}
                             <SingleProject>
                                 <a href="https://wdi14-project3.herokuapp.com/" target="_blank">Project 3: Goal'd</a>
                             </SingleProject>
+                            {/* PROJECT 4 */}
                             <SingleProject>
                                 <a href="https://protected-meadow-78592.herokuapp.com/" target="_blank">Project 4: Daddy Issues </a>
                             </SingleProject>
                         </SectionWrapper>
+
                     </ProjectContainer>
 
                 </LandingBackGround >
