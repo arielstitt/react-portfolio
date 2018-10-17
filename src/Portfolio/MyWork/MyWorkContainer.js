@@ -18,10 +18,10 @@ const ProjectContainer = styled.div`
 `
 const SingleProject = styled.div`
     background-color: orange;
-    height: 40vh;
+    height: 20vh;
     width: 20vw;
 `
-const SectionHeader = styled.div `
+const SectionHeader = styled.div`
     width: 100vw;
     height: 15vh;
     display: flex;
@@ -32,26 +32,25 @@ const SectionHeader = styled.div `
 class MyWorkContainer extends Component {
     render() {
         return (
-            
+
             <LandingBackGround id='myWork'>
-                    <SectionHeader> My Work </SectionHeader>
-                   
+                {/* <SectionHeader> My Work </SectionHeader> */}
+
                 {/* BLOCK 1 */}
                 <ProjectContainer>
-                    <SingleProject>
-                        <a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">Project 1: Jeopardy</a>
-                    </SingleProject>
-                    <SingleProject>
-                        <a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">Project 2: Mother Of Horus</a>
-                    </SingleProject>
-                
-              
-                    <SingleProject>
-                        <a href="https://wdi14-project3.herokuapp.com/" target="_blank">Project 3: Goal'd</a>
-                    </SingleProject>
-                    <SingleProject>
-                        <a href="https://protected-meadow-78592.herokuapp.com/" target="_blank">Project 4: Daddy Issues </a>
-                    </SingleProject>
+                        <SingleProject>
+                            <a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">Project 1: Jeopardy</a>
+                        </SingleProject>
+                        <SingleProject>
+                            <a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">Project 2: Mother Of Horus</a>
+                        </SingleProject>
+                    
+                        <SingleProject>
+                            <a href="https://wdi14-project3.herokuapp.com/" target="_blank">Project 3: Goal'd</a>
+                        </SingleProject>
+                        <SingleProject>
+                            <a href="https://protected-meadow-78592.herokuapp.com/" target="_blank">Project 4: Daddy Issues </a>
+                        </SingleProject>
                 </ProjectContainer>
 
             </LandingBackGround >

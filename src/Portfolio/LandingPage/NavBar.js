@@ -7,10 +7,11 @@ const NavContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     background: white;
-    height: 20vh;
+    height: 12vh;
     width: 100vw;
-    border: 5px solid #3c3939;
+    border-top: 5px solid green;
     padding: 1%;
+    position: fixed;
 
 `
 const NavButtons = styled.div`
@@ -48,7 +49,7 @@ class NavBar extends Component {
                         <NavButtons><a href="#myWork">My Work</a></NavButtons>
                         <NavButtons><a href="#aboutMe">About Me</a></NavButtons>
                         <NavButtons><a href="#contact">Contact</a></NavButtons>
-                        <EmailWrapper><a href="arielstitt@gmail.com">arielstitt@gmail.com</a></EmailWrapper>
+                        <EmailWrapper><a href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</a></EmailWrapper>
                     </LinkWrapper>
 
                 </NavContainer>

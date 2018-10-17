@@ -8,38 +8,66 @@ import friends from '../../media/friends.mp4'
 import Footer from './Footer'
 
 const LandingBackGround = styled.div`
-    
-    height: 75vh;
+    background-color: white;
+    height: 100vh;
     width: 100vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 10px solid #3c3939;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 `
-const PlayVideo = styled.video`
-    height: 75vh;
-    width: 100vw;
-    object-fit: inherit;
+const ContentContainer = styled.div`
+    height: 100vh; 
+    width: 60vw;
+    background-color: ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 `
+const ImageContainer = styled.div`
+    height: 50vh; 
+    width: 30vw;  
+    background-color: ;
+    display: flex;
+    align-items: center;
+`
+const PlayVideo = styled.video `
+    height: inherit;
+    width: inherit; 
 
-
+`
 class LandingPageContainer extends Component {
     render() {
         return (
             <div>
                 <NavBar />
+                {/* THIS NEEDS TO BE SEPARATED INTO A SEPARATE COMPOENET AND IMPORTED IN LADINGINPAGECONTAINER */}
                 <LandingBackGround>
+                    <ContentContainer>
+                        <div>
+                            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+                        </div>
+                        <div>
+                            <h1>Cupiditate inventore pariatur ad vitae! Dolor consectetur dolorem voluptatibus quisquam voluptate, veritatis numquam, odit possimus sequi, provident exercitationem magni pariatur? Dolor, perferendis.</h1>
+                        </div>
+                        <div>
+                            <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quos voluptatum, deserunt illo hic molestias beatae quae odio totam commodi minus mollitia deleniti eligendi repellendus praesentium optio delectus, est tempore. </h3>
+                        </div>
 
-                    <PlayVideo autoPlay muted loop >
-                        <source src={friends} type="video/mp4" />
-                    </PlayVideo>
-
+                    </ContentContainer>
+                    <ImageContainer>
+                        <PlayVideo>
+                            <source src={friends} type="video/mp4" />
+                        </PlayVideo>
+                        
+                    </ImageContainer>
                 </LandingBackGround>
+                {/* THIS NEEDS TO BE SEPARATED INTO A SEPARATE COMPOENET AND IMPORTED IN LADINGINPAGECONTAINER */}
                 <MyWorkContainer />
                 <AboutContainer />
                 <ContactContainer />
-                <Footer/>
+                <Footer />
             </div>
         );
     }
