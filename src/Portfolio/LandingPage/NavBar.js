@@ -4,15 +4,16 @@ import Scrollspy from 'react-scrollspy'
 
 const NavContainer = styled.div`
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    background: #cc6e55;
+    background: white;
     height: 20vh;
     width: 100vw;
     border: 5px solid #3c3939;
+    padding: 1%;
 
 `
-const NavButtons = styled.div `
+const NavButtons = styled.div`
     background-color: white;
     height: 20%;
     width: 20%;
@@ -22,15 +23,34 @@ const navStyle = {
     margin: 'auto'
 }
 
+const NameWrapper = styled.div `
+
+`
+const LinkWrapper = styled.div `
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+`
+const EmailWrapper = styled.div `
+    color: #c9c9c9;
+    font-weight: 200;   
+`
+
 class NavBar extends Component {
     render() {
         return (
 
             <Scrollspy style={navStyle} items={['myWork', 'aboutMe', 'contact']} currentClassName="is-current">
                 <NavContainer>
-                    <NavButtons><a href="#myWork">My Work</a></NavButtons>
-                    <NavButtons><a href="#aboutMe">About Me</a></NavButtons>
-                    <NavButtons><a href="#contact">Contact</a></NavButtons>
+
+                    <NameWrapper>Ariel Stitt</NameWrapper>
+                    <LinkWrapper>
+                        <NavButtons><a href="#myWork">My Work</a></NavButtons>
+                        <NavButtons><a href="#aboutMe">About Me</a></NavButtons>
+                        <NavButtons><a href="#contact">Contact</a></NavButtons>
+                        <EmailWrapper><a href="arielstitt@gmail.com">arielstitt@gmail.com</a></EmailWrapper>
+                    </LinkWrapper>
+
                 </NavContainer>
             </Scrollspy>
 

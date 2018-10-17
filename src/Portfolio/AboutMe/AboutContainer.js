@@ -16,12 +16,13 @@ const SixtySecondPitchContainer = styled.div`
     display: flex;
     flex-direction: column;
     height: 80vh;
-    width: 45vw;
+    width: 35vw;
 `
 const PictureContainer = styled.div`
     background: url("https://i.imgur.com/o8L2jra.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 50%;
     margin: 3%;
     

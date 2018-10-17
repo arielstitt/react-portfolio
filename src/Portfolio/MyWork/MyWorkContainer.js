@@ -16,7 +16,7 @@ const ProjectContainer = styled.div`
     align-items: center;
     justify-content: space-around;
 `
-const SingleProject = styled.iframe`
+const SingleProject = styled.div`
     background-color: orange;
     height: 40vh;
     width: 20vw;

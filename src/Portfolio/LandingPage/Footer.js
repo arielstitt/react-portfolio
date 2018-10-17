@@ -5,6 +5,9 @@ const FooterContainer = styled.div `
     background: lavander;
     height: 15vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 class Footer extends Component {
