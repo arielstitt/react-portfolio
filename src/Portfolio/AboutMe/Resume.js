@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const ResumeContainer = styled.div`
-    height: 100vh;
+    height: 125vh;
     width: 100vw;
     background-color: yellow;
 `
@@ -21,6 +21,8 @@ class Resume extends Component {
                 <SectionHeader></SectionHeader>
                 <ResumeContainer>
                     Dis is my Resume
+                    <button onClick={this.props.toggleResumeView}>Resume</button>
+
             </ResumeContainer>
             </div>
         );

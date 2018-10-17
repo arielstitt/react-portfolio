@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const LandingBackGround = styled.div`
-    height: 100vh;
+    height: 125vh;
     width: 100vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: purple;
 `
 const SixtySecondPitchContainer = styled.div`
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 90vh;
     width: 35vw;
 `
 const PictureContainer = styled.div`
@@ -29,7 +30,7 @@ const DescriptionBlock = styled.div`
     margin: 3%;
 `
 const ResumeAside = styled.div`
-    height: 80vh;
+    height: 90vh;
     width: 45vw;
 `
 const SectionHeader = styled.div`
@@ -89,7 +90,9 @@ class AboutMe extends Component {
                             <li>Ruby on Rails</li>
                             <li>PostgreSQL</li>
                         </ul>
+                        <button onClick={this.props.toggleResumeView}>Resume</button>
                     </ResumeAside>
+
                 </LandingBackGround>
             </div>
         );

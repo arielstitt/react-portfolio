@@ -11,10 +11,12 @@ const NavContainer = styled.div`
     border-top: 5px solid green;
     padding: 1%;
     position: fixed;
+    background-color:white;
+    
 
 `
 const NavButtons = styled.div`
-    background-color: white;
+    background-color: ;
     height: 20%;
     width: 20%;
 `
