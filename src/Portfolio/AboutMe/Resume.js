@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const ResumeContainer = styled.div`
     height: 125vh;
     width: 100vw;
-    background-color: yellow;
 `
 const SectionHeader = styled.div`
     width: 100vw;
@@ -19,9 +18,9 @@ class Resume extends Component {
         return (
             <div>
                 <SectionHeader></SectionHeader>
-                <ResumeContainer>
-                    Dis is my Resume
-                    <button onClick={this.props.toggleResumeView}>Resume</button>
+            <ResumeContainer>
+                     Dis is my Resume
+                    <button onClick={this.props.toggleResumeView}>about me</button> 
 
             </ResumeContainer>
             </div>

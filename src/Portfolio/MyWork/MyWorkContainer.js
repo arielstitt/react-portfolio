@@ -13,11 +13,7 @@ const ProjectContainer = styled.div`
     width: 100vw;
 
 `
-const SingleProject = styled.div`
-    background-color: orange;
-    height: 45vh;
-    width: 45vw;
-`
+
 const SectionWrapper = styled.div`
     display: flex;
     justify-content: space-around;
@@ -42,31 +38,13 @@ class MyWorkContainer extends Component {
 
 
                     <ProjectContainer>
-                        {/* BLOCK 1 */}
                         <SectionWrapper>
-                            {/* PROJECT 1 */}
-                            <a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">
-                                <SingleProject>
-                                    <div>Project 1: Jeopardy</div>
-                                </SingleProject>
-                            </a>
-                            {/* PROJECT 2 */}
-
-                            <a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">
-                                <SingleProject>  </SingleProject>
-                            </a>
-
+                        
+                    {/* PUT JEOPARDY AND MOTHER HERE */}
                         </SectionWrapper>
                         {/* BLOCK 2 */}
                         <SectionWrapper>
-                            {/* PROJECT 3 */}
-                            <SingleProject>
-                                <a href="https://wdi14-project3.herokuapp.com/" target="_blank">Project 3: Goal'd</a>
-                            </SingleProject>
-                            {/* PROJECT 4 */}
-                            <SingleProject>
-                                <a href="https://protected-meadow-78592.herokuapp.com/" target="_blank">Project 4: Daddy Issues </a>
-                            </SingleProject>
+                           {/* PUT GOALD AND DADDY ISSUE HERE */}
                         </SectionWrapper>
 
                     </ProjectContainer>

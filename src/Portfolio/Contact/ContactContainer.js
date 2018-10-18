@@ -29,7 +29,7 @@ class ContactContainer extends Component {
     render() {
         return (
             <div>
-                <SectionHeader id='contact'> Contact Me</SectionHeader>
+                <SectionHeader id='contact'></SectionHeader>
                 <ContactsContainer >
 
                     <ContactPod> <a href="https://github.com/arielstitt" target="_blank">

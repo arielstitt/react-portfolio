@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 
-const MotherWrapper = styled.div `
-    background: pink;
+const SingleProject = styled.div`
+    background-color: orange;
+    height: 45vh;
+    width: 45vw;
 `
 
 class Mother extends Component {
     render() {
         return (
-            <MotherWrapper>
-                
-            </MotherWrapper>
+            <a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">
+                <SingleProject> MOTHER OF HORUS </SingleProject>
+            </a>
         );
     }
 }

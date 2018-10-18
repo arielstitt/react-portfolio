@@ -17,7 +17,6 @@ class AboutContainer extends Component {
     render() {
         return (
             <div>
-                {/* <AboutMe/> */}
                  {this.state.showResume ?
                     (<Resume
                         toggleResumeView = {this.toggleResumeView}

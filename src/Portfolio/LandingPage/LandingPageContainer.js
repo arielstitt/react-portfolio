@@ -57,7 +57,7 @@ class LandingPageContainer extends Component {
 
                     </ContentContainer>
                     <ImageContainer>
-                        <PlayVideo>
+                        <PlayVideo autoplay>
                             <source src={friends} type="video/mp4" />
                         </PlayVideo>
                         
