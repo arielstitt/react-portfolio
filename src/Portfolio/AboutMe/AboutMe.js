@@ -8,7 +8,6 @@ const LandingBackGround = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: purple;
 `
 const SixtySecondPitchContainer = styled.div`
     display: flex;
@@ -21,6 +20,7 @@ const PictureContainer = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 50%;
     height: 50%;
     margin: 3%;
     
