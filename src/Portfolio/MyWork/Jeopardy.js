@@ -5,6 +5,7 @@ import JeopardyBackground from '../../media/Jeopardy.jpg'
 const SingleProject = styled.div`
     background-image: url('${JeopardyBackground}');
     background-size: contain;
+    background-repeat: round;
     height: 45vh;
     width: 45vw;
 `
@@ -14,9 +15,7 @@ class Jeopardy extends Component {
         return (
             <div>
                 <a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">
-                    <SingleProject>
-                        <div>Project 1: Jeopardy</div>
-                    </SingleProject>
+                    <SingleProject></SingleProject>
                 </a>
             </div>
         );

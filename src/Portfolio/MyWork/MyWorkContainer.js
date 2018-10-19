@@ -40,15 +40,16 @@ class MyWorkContainer extends Component {
 
                     <ProjectContainer>
                         <SectionWrapper>
-                        <Jeopardy/>
-                        <Mother/>
-                    {/* PUT JEOPARDY AND MOTHER HERE */}
+                            <Jeopardy />
+                            <Daddy />
+                            {/* PUT JEOPARDY AND MOTHER HERE */}
                         </SectionWrapper>
                         {/* BLOCK 2 */}
                         <SectionWrapper>
-                           {/* PUT GOALD AND DADDY ISSUE HERE */}
-                           <Goald/>
-                           <Daddy/>
+                            {/* PUT GOALD AND DADDY ISSUE HERE */}
+                            <Goald />
+                            <Mother />
+
                         </SectionWrapper>
 
                     </ProjectContainer>
