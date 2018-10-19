@@ -8,12 +8,11 @@ import friends from '../../media/friends.mp4'
 import Footer from './Footer'
 
 const LandingBackGround = styled.div`
-    background: url("https://media.giphy.com/media/xULW8lKRBkg5qPABqg/giphy.gif");
+    // background: url("https://media.giphy.com/media/Ri09OKu0aS22c/giphy.gif");
     background-size: contain;
     background-repeat: round;
     height: 100vh;
     width: 100vw;
-    display: flex;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,44 +26,23 @@ const ContentContainer = styled.div`
     flex-direction: column;
     justify-content: center;
 `
-const ImageContainer = styled.div`
-    height: 50vh; 
-    width: 30vw;  
-    background-color: ;
-    display: flex;
-    align-items: center;
-`
-const PlayVideo = styled.video `
-    height: inherit;
-    width: inherit; 
 
-`
 class LandingPageContainer extends Component {
     render() {
         return (
             <div>
                 <NavBar />
-                {/* THIS NEEDS TO BE SEPARATED INTO A SEPARATE COMPOENET AND IMPORTED IN LADINGINPAGECONTAINER */}
                 <LandingBackGround id='landingPage'>
                     <ContentContainer>
                         <div>
-                            <h1>Hey, I am a Full Stack Developer.</h1>
+                            <h1>Hey, I am a Full Stack Developer in the market for new opportunities.</h1>
                         </div>
                         <div>
                             <h3> I design and build full stack web applications in the Atlanta area.</h3>
-                           
-
-                        </div>
-
+                       </div>
+                        {/* <div id='myWork'> <a href=""><h1>↓</h1></a></div> */}
                     </ContentContainer>
-                    {/* <ImageContainer>
-                        <PlayVideo autoplay>
-                            <source src={friends} type="video/mp4" />
-                        </PlayVideo>
-                        
-                    </ImageContainer> */}
                 </LandingBackGround>
-                {/* THIS NEEDS TO BE SEPARATED INTO A SEPARATE COMPOENET AND IMPORTED IN LADINGINPAGECONTAINER */}
                 <MyWorkContainer />
                 <AboutContainer />
                 <ContactContainer />

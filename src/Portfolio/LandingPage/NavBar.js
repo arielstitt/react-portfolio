@@ -8,12 +8,11 @@ const NavContainer = styled.div`
     align-items: center;
     height: 12vh;
     width: 100vw;
-    border-top: 5px solid green;
+    border-top: 5px solid black;
     padding: 1%;
     position: fixed;
-    background-color:white;
+    background-color: white;
     
-
 `
 const NavButtons = styled.div`
     background-color: ;
