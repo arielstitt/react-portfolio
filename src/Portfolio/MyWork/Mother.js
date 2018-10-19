@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
+ 
 
 const SingleProject = styled.div`
-    background-color: orange;
+    background-color: green;
     height: 45vh;
     width: 45vw;
 `

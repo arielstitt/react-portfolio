@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import Mother from './Mother'
+import Jeopardy from './Jeopardy'
+import Daddy from './Daddy'
+import Goald from './Goald'
 
 
 const LandingBackGround = styled.div`
@@ -11,7 +14,6 @@ const LandingBackGround = styled.div`
 const ProjectContainer = styled.div`
     height: 85vh;
     width: 100vw;
-
 `
 
 const SectionWrapper = styled.div`
@@ -36,15 +38,17 @@ class MyWorkContainer extends Component {
                 <LandingBackGround id='myWork'>
                     {/* <SectionHeader> My Work </SectionHeader> */}
 
-
                     <ProjectContainer>
                         <SectionWrapper>
-                        
+                        <Jeopardy/>
+                        <Mother/>
                     {/* PUT JEOPARDY AND MOTHER HERE */}
                         </SectionWrapper>
                         {/* BLOCK 2 */}
                         <SectionWrapper>
                            {/* PUT GOALD AND DADDY ISSUE HERE */}
+                           <Goald/>
+                           <Daddy/>
                         </SectionWrapper>
 
                     </ProjectContainer>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const SingleProject = styled.div`
-    background-color: orange;
+    background-color: blue;
     height: 45vh;
     width: 45vw;
 `

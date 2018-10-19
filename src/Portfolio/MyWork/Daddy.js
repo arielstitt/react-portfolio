@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import DaddyBackground from '../../media/daddy-issues.png'
 
 const SingleProject = styled.div`
-    background-color: orange;
+    background-image: url('${DaddyBackground}');
     height: 45vh;
     width: 45vw;
 `
