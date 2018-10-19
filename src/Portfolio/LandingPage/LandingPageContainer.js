@@ -8,7 +8,9 @@ import friends from '../../media/friends.mp4'
 import Footer from './Footer'
 
 const LandingBackGround = styled.div`
-    background-color: white;
+    background: url("https://media.giphy.com/media/xULW8lKRBkg5qPABqg/giphy.gif");
+    background-size: contain;
+    background-repeat: round;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -46,22 +48,21 @@ class LandingPageContainer extends Component {
                 <LandingBackGround id='landingPage'>
                     <ContentContainer>
                         <div>
-                            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+                            <h1>Hey, I am a Full Stack Developer.</h1>
                         </div>
                         <div>
-                            <h1>Cupiditate inventore pariatur ad vitae! Dolor consectetur dolorem voluptatibus quisquam voluptate, veritatis numquam, odit possimus sequi, provident exercitationem magni pariatur? Dolor, perferendis.</h1>
-                        </div>
-                        <div>
-                            <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quos voluptatum, deserunt illo hic molestias beatae quae odio totam commodi minus mollitia deleniti eligendi repellendus praesentium optio delectus, est tempore. </h3>
+                            <h3> I design and build full stack web applications in the Atlanta area.</h3>
+                           
+
                         </div>
 
                     </ContentContainer>
-                    <ImageContainer>
+                    {/* <ImageContainer>
                         <PlayVideo autoplay>
                             <source src={friends} type="video/mp4" />
                         </PlayVideo>
                         
-                    </ImageContainer>
+                    </ImageContainer> */}
                 </LandingBackGround>
                 {/* THIS NEEDS TO BE SEPARATED INTO A SEPARATE COMPOENET AND IMPORTED IN LADINGINPAGECONTAINER */}
                 <MyWorkContainer />

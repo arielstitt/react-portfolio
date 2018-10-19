@@ -54,7 +54,7 @@ class AboutMe extends Component {
 
                         </PictureContainer>
                         <DescriptionBlock>
-                            <p>   I am a Full Stack Developer that is searching for both frontend and backend opportunities. From the moment I first got my hands on a programming languages over a year ago, I knew that I found the medium to nurture my creativity and logic all in one package: software. </p>
+                        
 
                             <p> Combined with years of experience dealing with customers face to face, managing employees, and delivering clear communication to my team, I want to be the fresh and focused addition to the developer community.</p>
 
