@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
- 
+import MotherBackground from '../../media/MOTHER.jpg'
 
 const SingleProject = styled.div`
-    background-color: green;
+    background-image: url('${MotherBackground}');
+    background-size: contain;
     height: 45vh;
     width: 45vw;
 `

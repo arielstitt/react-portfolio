@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import GoaldBackground from '../../media/HANDMADE.jpg'
 
 const SingleProject = styled.div`
-    background-color: yellow;
+    background-image: url('${GoaldBackground}');
+    background-size: contain;
     height: 45vh;
     width: 45vw;
 `

@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import JeopardyBackground from '../../media/Jeopardy.jpg'
 
 const SingleProject = styled.div`
-    background-color: blue;
+    background-image: url('${JeopardyBackground}');
+    background-size: contain;
     height: 45vh;
     width: 45vw;
 `
