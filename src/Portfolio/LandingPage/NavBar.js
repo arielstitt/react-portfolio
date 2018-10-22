@@ -42,9 +42,7 @@ const EmailWrapper = styled.div `
     color: #c9c9c9;
     font-weight: 200;   
 `
-const GreenHighlight = styled.a `
-    color: green;
-`
+
 
 class NavBar extends Component {
     render() {
@@ -58,7 +56,7 @@ class NavBar extends Component {
                         <NavButtons><a href="#myWork">My Work</a></NavButtons>
                         <NavButtons><a href="#aboutMe">About Me</a></NavButtons>
                         <NavButtons><a href="#contact">Contact</a></NavButtons>
-                        <EmailWrapper><GreenHighlight href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</GreenHighlight></EmailWrapper>
+                        <EmailWrapper><a href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</a></EmailWrapper>
                     </LinkWrapper>
 
                 </NavContainer>

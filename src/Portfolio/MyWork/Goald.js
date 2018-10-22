@@ -5,7 +5,7 @@ import GoaldBackground from '../../media/HANDMADE.jpg'
 const SingleProject = styled.div`
     background-image: url('${GoaldBackground}');
     background-size: contain;
-    background-repeat: round;
+    background-repeat: no-repeat;
     height: 45vh;
     width: 45vw;
 `

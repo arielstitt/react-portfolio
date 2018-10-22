@@ -5,7 +5,7 @@ import MotherBackground from '../../media/MOTHER.jpg'
 const SingleProject = styled.div`
     background-image: url('${MotherBackground}');
     background-size: contain;
-    background-repeat: round;
+    background-repeat: no-repeat;
     height: 45vh;
     width: 45vw;
 `

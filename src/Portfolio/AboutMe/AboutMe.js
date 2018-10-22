@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
-import Me from '../../media/me.jpg'
+import Me from '../../media/standardProfilePic.jpg'
 
 const LandingBackGround = styled.div`
     height: 125vh;
@@ -19,7 +19,7 @@ const SixtySecondPitchContainer = styled.div`
 const PictureContainer = styled.div`
     background: url("${Me}");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 5%;
     height: 50%;

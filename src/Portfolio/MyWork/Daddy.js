@@ -5,7 +5,7 @@ import DaddyBackground from '../../media/Apparel.jpg'
 const SingleProject = styled.div`
     background-image: url('${DaddyBackground}');
     background-size: contain;
-    background-repeat: round;
+    background-repeat: no-repeat;
     height: 45vh;
     width: 45vw;
 `
