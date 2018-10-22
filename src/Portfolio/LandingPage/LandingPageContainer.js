@@ -4,7 +4,6 @@ import MyWorkContainer from '../MyWork/MyWorkContainer'
 import AboutContainer from '../AboutMe/AboutContainer'
 import ContactContainer from '../Contact/ContactContainer'
 import NavBar from './NavBar'
-import friends from '../../media/friends.mp4'
 import Footer from './Footer'
 
 const LandingBackGround = styled.div`
