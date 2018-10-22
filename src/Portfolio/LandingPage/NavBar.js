@@ -53,7 +53,7 @@ class NavBar extends Component {
 
                     <NameWrapper> <a href="#landingPage"> Ariel Stitt</a></NameWrapper>
                     <LinkWrapper>
-                        <NavButtons><a href="#myWork">My Work</a></NavButtons>
+                        <NavButtons><a href="#myWork">Portfolio</a></NavButtons>
                         <NavButtons><a href="#aboutMe">About Me</a></NavButtons>
                         <NavButtons><a href="#contact">Contact</a></NavButtons>
                         <EmailWrapper><a href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</a></EmailWrapper>

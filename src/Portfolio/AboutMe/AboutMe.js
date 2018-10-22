@@ -21,7 +21,7 @@ const PictureContainer = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 5%;
+    border-radius: 7%;
     height: 50%;
     margin: 3%;
     
@@ -64,16 +64,20 @@ class AboutMe extends Component {
 
                     <ResumeAside>
                         <h2>Communication</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officiis et at fugiat. Dolorem neque, ut, totam animi saepe magnam iste fugit rerum officiis earum adipisci tempora odio reiciendis perferendis.</p>
+                        <p>One of the most important quotes from George Bernard Shaw is "the single bigest problem in communication is the illusion that is has taken place".</p>
+                        <p>That's why I like to use Slack, email, and daily stand-ups to make sure that I am on track with my peers and work expectations.</p>
 
                         <h2>Collaboration</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatem. Cupiditate dolorem delectus reprehenderit veritatis officia fuga. Dolore iure porro est et laborum, ipsa dolorem ullam odio voluptatibus voluptates minus!</p>
+                        <p>Being able to effectivaly work as a team can have it's challeges. That's why I find it important to be open and honest with my team mates.</p>
+                        <p>Being open and honest and giving and receiving praise and constructive critisism are some of my strongest suits. </p>
 
                         <h2>Organization</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis amet nam et nobis atque unde impedit libero quam, ipsa minima, vitae recusandae molestiae eligendi ex dicta aliquam error saepe?</p>
+                        <p>Without proper organization, a project can come to a stalemate, with the developer and computer staring each other down in an indefinite draw.</p>
+                        <p>That's why I familiarized myself with productivity tools like Trello, Google Calendar, and Jira to stay on track.</p>
 
                         <h2>Documentation</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, incidunt explicabo. Temporibus dignissimos laboriosam quam et ut obcaecati quisquam reiciendis culpa repudiandae saepe nobis harum, sunt, magnam velit est doloribus!</p>
+                        <p>There is nothing like coming up on an old documentation that just says <span>SOLVED!!!</span> without anything else.</p>
+                        <p>My experience of problem solving and filling out almost 500 troubleshooting tickets a week, 75% of which were previously worked on issues, I know the importance of thouroughly documenting all stages of a project.</p>
                         
                         <button onClick={this.props.toggleResumeView}>Resume</button>
                     </ResumeAside>
