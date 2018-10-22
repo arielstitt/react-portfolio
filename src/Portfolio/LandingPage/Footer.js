@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const FooterContainer = styled.div `
-    background: lavander;
+    background: gray;
     height: 15vh;
     width: 100vw;
     display: flex;

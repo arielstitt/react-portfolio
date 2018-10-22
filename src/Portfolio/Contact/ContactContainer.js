@@ -20,7 +20,9 @@ const EmailContainer = styled.div`
 
 const ContactsContainer = styled.div`
     display: flex;
-    
+    a {
+        text-decoration:none;
+    }
 `
 
 const SectionHeader = styled.div`
@@ -40,8 +42,8 @@ class ContactContainer extends Component {
                 <ContactsContainer>
                     <Contacts >
                         <h1>Social</h1>
-                        <div> <a href="https://github.com/arielstitt" target="_blank">GITHUB</a></div>
-                        <div><a href="https://www.linkedin.com/in/arielstitt/" target="_blank">LINKEDIN</a></div>
+                        <div> <a href="https://github.com/arielstitt" target="_blank">Github</a></div>
+                        <div><a href="https://www.linkedin.com/in/arielstitt/" target="_blank">LinkedIn</a></div>
                         <div><a href="https://trello.com/arielstitt" target="_blank">Trello </a></div>
                         <div><a href="https://codepen.io/arielstitt/" target="_blank">Code Pen </a></div>
                     </Contacts>

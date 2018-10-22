@@ -8,11 +8,17 @@ const NavContainer = styled.div`
     align-items: center;
     height: 12vh;
     width: 100vw;
-    border-top: 5px solid black;
+    border-top: 5px solid green;
     padding: 1%;
     position: fixed;
     background-color: white;
-    
+    a {
+        text-decoration: none;
+        color: black;
+        :hover {
+            color: green;
+        }
+    }
 `
 const NavButtons = styled.div`
     background-color: ;
@@ -36,6 +42,9 @@ const EmailWrapper = styled.div `
     color: #c9c9c9;
     font-weight: 200;   
 `
+const GreenHighlight = styled.a `
+    color: green;
+`
 
 class NavBar extends Component {
     render() {
@@ -49,7 +58,7 @@ class NavBar extends Component {
                         <NavButtons><a href="#myWork">My Work</a></NavButtons>
                         <NavButtons><a href="#aboutMe">About Me</a></NavButtons>
                         <NavButtons><a href="#contact">Contact</a></NavButtons>
-                        <EmailWrapper><a href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</a></EmailWrapper>
+                        <EmailWrapper><GreenHighlight href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</GreenHighlight></EmailWrapper>
                     </LinkWrapper>
 
                 </NavContainer>

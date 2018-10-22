@@ -26,6 +26,9 @@ const ContentContainer = styled.div`
     flex-direction: column;
     justify-content: center;
 `
+const GreenHighlight = styled.a `
+    color: green;
+`
 
 class LandingPageContainer extends Component {
     render() {
@@ -39,6 +42,10 @@ class LandingPageContainer extends Component {
                         </div>
                         <div>
                             <h3> I design and build full stack web applications in the Atlanta area.</h3>
+                       </div>
+                       <div>
+                           <p>Let's Chat!</p>
+                           <p><GreenHighlight href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</GreenHighlight></p>
                        </div>
                         {/* <div id='myWork'> <a href=""><h1>↓</h1></a></div> */}
                     </ContentContainer>

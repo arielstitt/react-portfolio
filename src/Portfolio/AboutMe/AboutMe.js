@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import Me from '../../media/me.jpg'
 
 const LandingBackGround = styled.div`
     height: 125vh;
@@ -16,11 +17,11 @@ const SixtySecondPitchContainer = styled.div`
     width: 35vw;
 `
 const PictureContainer = styled.div`
-    background: url("https://i.imgur.com/o8L2jra.jpg");
+    background: url("${Me}");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 50%;
+    border-radius: 5%;
     height: 50%;
     margin: 3%;
     
@@ -53,8 +54,7 @@ class AboutMe extends Component {
                         <PictureContainer>
 
                         </PictureContainer>
-                        <DescriptionBlock>
-                        
+                        <DescriptionBlock>             
 
                             <p> Combined with years of experience dealing with customers face to face, managing employees, and delivering clear communication to my team, I want to be the fresh and focused addition to the developer community.</p>
 
@@ -63,33 +63,18 @@ class AboutMe extends Component {
                     </SixtySecondPitchContainer>
 
                     <ResumeAside>
-                        <h2>Core Compentcies</h2>
-                        <p>This is a paragraph detailing how and why these Compentcies are important and applicable</p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+                        <h2>Communication</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officiis et at fugiat. Dolorem neque, ut, totam animi saepe magnam iste fugit rerum officiis earum adipisci tempora odio reiciendis perferendis.</p>
 
-                        <h2>Skills</h2>
-                        <p>This is a paragraph about how and when I use these skills</p>
-                        <h3>Front end</h3>
-                        <ul>
-                            <li>HTML/ CSS</li>
-                            <li>handlebars</li>
-                            <li>React.js</li>
-                            <li>JavaScript</li>
-                            <li>XML</li>
-                        </ul>
+                        <h2>Collaboration</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatem. Cupiditate dolorem delectus reprehenderit veritatis officia fuga. Dolore iure porro est et laborum, ipsa dolorem ullam odio voluptatibus voluptates minus!</p>
 
-                        <h3>Back end</h3>
-                        <ul>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>Ruby on Rails</li>
-                            <li>PostgreSQL</li>
-                        </ul>
+                        <h2>Organization</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis amet nam et nobis atque unde impedit libero quam, ipsa minima, vitae recusandae molestiae eligendi ex dicta aliquam error saepe?</p>
+
+                        <h2>Documentation</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, incidunt explicabo. Temporibus dignissimos laboriosam quam et ut obcaecati quisquam reiciendis culpa repudiandae saepe nobis harum, sunt, magnam velit est doloribus!</p>
+                        
                         <button onClick={this.props.toggleResumeView}>Resume</button>
                     </ResumeAside>
 
