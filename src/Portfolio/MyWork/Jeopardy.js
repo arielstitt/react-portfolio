@@ -14,7 +14,7 @@ class Jeopardy extends Component {
     render() {
         return (
             <div>
-                <a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank">
+                <a href="https://agitated-volhard-7ae580.netlify.com/" target="_blank" rel="noopener noreferrer">
                     <SingleProject></SingleProject>
                 </a>
             </div>

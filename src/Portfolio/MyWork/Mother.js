@@ -13,7 +13,7 @@ const SingleProject = styled.div`
 class Mother extends Component {
     render() {
         return (
-            <a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank">
+            <a href="https://enigmatic-headland-90376.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <SingleProject> </SingleProject>
             </a>
         );

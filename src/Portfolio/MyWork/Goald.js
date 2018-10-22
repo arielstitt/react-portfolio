@@ -15,7 +15,7 @@ class Goald extends Component {
         return (
             <div>
 
-                <a href="https://wdi14-project3.herokuapp.com/" target="_blank">
+                <a href="https://wdi14-project3.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     <SingleProject></SingleProject>
                 </a>
 

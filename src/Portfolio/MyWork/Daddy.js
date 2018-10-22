@@ -14,7 +14,7 @@ class Daddy extends Component {
     render() {
         return (
             <div>
-                <a href="https://protected-meadow-78592.herokuapp.com/" target="_blank">
+                <a href="https://protected-meadow-78592.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     <SingleProject> </SingleProject>
                 </a>
             </div>
