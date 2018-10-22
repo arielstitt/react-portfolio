@@ -8,7 +8,7 @@ const NavContainer = styled.div`
     align-items: center;
     height: 12vh;
     width: 100vw;
-    border-top: 5px solid green;
+    border-bottom: 5px solid green;
     padding: 1%;
     position: fixed;
     background-color: white;

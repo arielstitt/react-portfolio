@@ -22,6 +22,7 @@ const ContactsContainer = styled.div`
     display: flex;
     a {
         text-decoration:none;
+        color: green;
     }
 `
 

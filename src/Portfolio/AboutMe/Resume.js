@@ -22,6 +22,10 @@ const ResumeContent = styled.div `
     background-size: contain;
     background-repeat: no-repeat;
     `
+const ResumeButton = styled.button `
+    background: green;
+    color: white;
+    `
 
 class Resume extends Component {
     render() {
@@ -33,7 +37,7 @@ class Resume extends Component {
 
                     </ResumeContent>
                 </ResumeContainer>
-                <button onClick={this.props.toggleResumeView}>about me</button>
+                <ResumeButton onClick={this.props.toggleResumeView}>about me</ResumeButton>
 
             </div>
         );
