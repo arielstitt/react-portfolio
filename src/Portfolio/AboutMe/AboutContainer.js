@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styled from 'styled-components'
 import AboutMe from './AboutMe'
 import Resume from './Resume'
 

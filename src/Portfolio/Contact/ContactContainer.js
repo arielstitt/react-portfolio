@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Footer from '../LandingPage/Footer'
 
 
 const Contacts = styled.div`
@@ -22,7 +21,7 @@ const ContactsContainer = styled.div`
     display: flex;
     a {
         text-decoration:none;
-        color: green;
+        color: #096de8;
     }
 `
 
@@ -43,10 +42,10 @@ class ContactContainer extends Component {
                 <ContactsContainer>
                     <Contacts >
                         <h1>Social</h1>
-                        <div> <a href="https://github.com/arielstitt" target="_blank">Github</a></div>
-                        <div><a href="https://www.linkedin.com/in/arielstitt/" target="_blank">LinkedIn</a></div>
-                        <div><a href="https://trello.com/arielstitt" target="_blank">Trello </a></div>
-                        <div><a href="https://codepen.io/arielstitt/" target="_blank">Code Pen </a></div>
+                        <div> <a href="https://github.com/arielstitt" target="_blank" rel="noopener noreferrer">Github</a></div>
+                        <div><a href="https://www.linkedin.com/in/arielstitt/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+                        <div><a href="https://trello.com/arielstitt" target="_blank" rel="noopener noreferrer">Trello </a></div>
+                        <div><a href="https://codepen.io/arielstitt/" target="_blank" rel="noopener noreferrer">Code Pen </a></div>
                     </Contacts>
 
                     <div>

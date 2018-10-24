@@ -42,10 +42,10 @@ const SectionHeader = styled.div`
     justify-content: center;
 `
 const GreenHighlight = styled.h2 `
-    color: green;
+    color: #17179e;
 `
 const ResumeButton = styled.button `
-    background: green;
+    background: #17179e;
     color: white;
     `
 

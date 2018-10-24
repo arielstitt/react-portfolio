@@ -8,7 +8,7 @@ const NavContainer = styled.div`
     align-items: center;
     height: 12vh;
     width: 100vw;
-    border-bottom: 5px solid green;
+    border-bottom: 5px solid #096de8;
     padding: 1%;
     position: fixed;
     background-color: white;
@@ -16,7 +16,7 @@ const NavContainer = styled.div`
         text-decoration: none;
         color: black;
         :hover {
-            color: green;
+            color: #096de8;
         }
     }
 `
@@ -42,7 +42,11 @@ const EmailWrapper = styled.div `
     color: #c9c9c9;
     font-weight: 200;   
 `
-
+const Name = styled.h3 `
+    a {
+        color: #096de8;
+    }
+`
 
 class NavBar extends Component {
     render() {
@@ -51,12 +55,12 @@ class NavBar extends Component {
             <Scrollspy style={navStyle} items={['landingPage','myWork', 'aboutMe', 'contact']} currentClassName="is-current">
                 <NavContainer>
 
-                    <NameWrapper> <a href="#landingPage"> Ariel Stitt</a></NameWrapper>
+                    <NameWrapper><Name><a href="#landingPage"> Ariel Stitt</a></Name> </NameWrapper>
                     <LinkWrapper>
-                        <NavButtons><a href="#myWork">Portfolio</a></NavButtons>
-                        <NavButtons><a href="#aboutMe">About Me</a></NavButtons>
-                        <NavButtons><a href="#contact">Contact</a></NavButtons>
-                        <EmailWrapper><a href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</a></EmailWrapper>
+                        <NavButtons><h3><a href="#myWork">Portfolio</a></h3></NavButtons>
+                        <NavButtons><h3><a href="#aboutMe">About Me</a></h3></NavButtons>
+                        <NavButtons><h3><a href="#contact">Contact</a></h3></NavButtons>
+                        <EmailWrapper><h3><a href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</a></h3></EmailWrapper>
                     </LinkWrapper>
 
                 </NavContainer>

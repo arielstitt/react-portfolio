@@ -26,7 +26,7 @@ const ContentContainer = styled.div`
     justify-content: center;
 `
 const GreenHighlight = styled.a `
-    color: green;
+    color: #17179e;
 `
 
 class LandingPageContainer extends Component {
@@ -44,7 +44,7 @@ class LandingPageContainer extends Component {
                        </div>
                        <div>
                            <p>Let's Chat!</p>
-                           <p><GreenHighlight href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</GreenHighlight></p>
+                           <p><a color="#096de8" href="mailto:arielstitt@gmail.com">arielstitt@gmail.com</a></p>
                        </div>
                         {/* <div id='myWork'> <a href=""><h1>↓</h1></a></div> */}
                     </ContentContainer>
