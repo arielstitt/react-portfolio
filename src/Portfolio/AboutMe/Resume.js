@@ -7,7 +7,7 @@ const ResumeContainer = styled.div`
     width: 100vw;  
     display: flex;
     justify-content: center;
-`
+=`
 const SectionHeader = styled.div`
     width: 100vw;
     height: 15vh;
@@ -15,17 +15,20 @@ const SectionHeader = styled.div`
     align-items: center;
     justify-content: center;
 `
-const ResumeContent = styled.div `
+const ResumeContent = styled.div`
     height: 125vh;
     width: 80vw;
-    background-image: url('${WorkHistory}');
     background-size: contain;
     background-repeat: no-repeat;
+    background-image: url('${WorkHistory}');
+
     `
-const ResumeButton = styled.button `
+const ResumeButton = styled.button`
     background: green;
     color: white;
     `
+
+
 
 class Resume extends Component {
     render() {
@@ -34,14 +37,14 @@ class Resume extends Component {
                 <SectionHeader id="aboutMe"></SectionHeader>
                 <ResumeContainer>
                     <ResumeContent>
-
-                    </ResumeContent>
+                       
+                     </ResumeContent>
                 </ResumeContainer>
-                <ResumeButton onClick={this.props.toggleResumeView}>about me</ResumeButton>
+                    <ResumeButton onClick={this.props.toggleResumeView}>about me</ResumeButton>
 
             </div>
-        );
-    }
-}
-
+                );
+            }
+        }
+        
 export default Resume;
